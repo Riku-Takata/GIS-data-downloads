@@ -9,3 +9,8 @@ htmlcov/
 # Google API credentials must never be committed.
 *service-account*.json
 credentials*.json
+service_account*.json
+client_secret*.json
+authorized-user*.json
+token*.json
+credentials/
