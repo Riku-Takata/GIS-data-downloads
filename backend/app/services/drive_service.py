@@ -7,12 +7,15 @@ from pathlib import Path
 from typing import Any
 
 import google.auth
-from google.oauth2 import service_account
+from google.auth import load_credentials_from_file
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 
-DRIVE_SCOPES = ("https://www.googleapis.com/auth/drive.file",)
+# The configured folder can be an existing My Drive folder. The narrower
+# drive.file scope cannot discover arbitrary folders that were not opened with
+# this application, so user OAuth requires full Drive access.
+DRIVE_SCOPES = ("https://www.googleapis.com/auth/drive",)
 JSON_MIME_TYPE = "application/json"
 
 
@@ -31,10 +34,10 @@ def build_drive_service(
     credentials_path: Path | None = None,
     impersonate_user: str | None = None,
 ) -> Any:
-    """Create a Drive v3 client from a service account or ADC credentials."""
+    """Create a Drive v3 client from a service account, user OAuth, or ADC."""
 
     if credentials_path is not None:
-        credentials = service_account.Credentials.from_service_account_file(
+        credentials, _ = load_credentials_from_file(
             str(credentials_path), scopes=DRIVE_SCOPES
         )
     else:
@@ -83,6 +86,7 @@ def upsert_json_file(
         "pageSize": 1,
         "fields": "files(id,name,webViewLink,modifiedTime)",
         "includeItemsFromAllDrives": True,
+        "supportsAllDrives": True,
     }
     if shared_drive_id:
         list_arguments.update(corpora="drive", driveId=shared_drive_id)

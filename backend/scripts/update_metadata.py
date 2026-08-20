@@ -47,7 +47,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--credentials",
         type=Path,
-        help="サービスアカウントJSONのパス。省略時はADCを使用する",
+        help="サービスアカウントまたはユーザーOAuth JSON。省略時はADCを使用する",
     )
     parser.add_argument(
         "--impersonate-user",

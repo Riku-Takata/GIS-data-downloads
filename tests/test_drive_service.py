@@ -1,6 +1,28 @@
-from unittest.mock import MagicMock
+from pathlib import Path
+from unittest.mock import MagicMock, patch
 
-from app.services.drive_service import upsert_json_file
+from app.services.drive_service import DRIVE_SCOPES, build_drive_service, upsert_json_file
+
+
+@patch("app.services.drive_service.build")
+@patch("app.services.drive_service.load_credentials_from_file")
+def test_build_drive_service_loads_user_or_service_account_json(
+    load_credentials, build
+):
+    credentials = MagicMock()
+    load_credentials.return_value = (credentials, "project-id")
+    expected_service = object()
+    build.return_value = expected_service
+
+    service = build_drive_service(credentials_path=Path("credentials.json"))
+
+    assert service is expected_service
+    load_credentials.assert_called_once_with(
+        "credentials.json", scopes=DRIVE_SCOPES
+    )
+    build.assert_called_once_with(
+        "drive", "v3", credentials=credentials, cache_discovery=False
+    )
 
 
 def test_upsert_json_file_creates_when_file_does_not_exist(tmp_path):
@@ -26,6 +48,7 @@ def test_upsert_json_file_creates_when_file_does_not_exist(tmp_path):
     assert result.operation == "created"
     list_kwargs = files.list.call_args.kwargs
     assert list_kwargs["driveId"] == "shared-drive-id"
+    assert list_kwargs["supportsAllDrives"] is True
     assert "'folder-id' in parents" in list_kwargs["q"]
     create_kwargs = files.create.call_args.kwargs
     assert create_kwargs["body"] == {
