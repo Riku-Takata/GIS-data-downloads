@@ -1,0 +1,1841 @@
+{
+  "schema_version": 1,
+  "source": {
+    "name": "国土数値情報ダウンロードサービス",
+    "url": "https://nlftp.mlit.go.jp/ksj/",
+    "retrieved_at": "2026-08-20T01:41:23.158136Z"
+  },
+  "dataset_count": 133,
+  "datasets": [
+    {
+      "data_code": "A03",
+      "data_name": "三大都市圏計画区域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "三大都市圏計画区域（ポリゴン）",
+        "三大都市圏計画区域",
+        "A03",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A03-2025.html"
+    },
+    {
+      "data_code": "A09",
+      "data_name": "都市地域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "都市計画決定情報",
+      "keywords": [
+        "都市地域（ポリゴン）",
+        "都市地域",
+        "A09",
+        "政策区域",
+        "都市計画決定情報"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A09.html"
+    },
+    {
+      "data_code": "A10",
+      "data_name": "自然公園地域（ポリゴン）",
+      "category": "3. 地域",
+      "subcategory": "保護保全",
+      "keywords": [
+        "自然公園地域（ポリゴン）",
+        "自然公園地域",
+        "A10",
+        "地域",
+        "保護保全"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A10-2015.html"
+    },
+    {
+      "data_code": "A11",
+      "data_name": "自然保全地域（ポリゴン）",
+      "category": "3. 地域",
+      "subcategory": "保護保全",
+      "keywords": [
+        "自然保全地域（ポリゴン）",
+        "自然保全地域",
+        "A11",
+        "地域",
+        "保護保全"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A11.html"
+    },
+    {
+      "data_code": "A12",
+      "data_name": "農業地域（ポリゴン）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "土地利用",
+      "keywords": [
+        "農業地域（ポリゴン）",
+        "農業地域",
+        "A12",
+        "国土（水・土地）",
+        "土地利用"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A12.html"
+    },
+    {
+      "data_code": "A13",
+      "data_name": "森林地域（ポリゴン）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "土地利用",
+      "keywords": [
+        "森林地域（ポリゴン）",
+        "森林地域",
+        "A13",
+        "国土（水・土地）",
+        "土地利用"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A13-2015.html"
+    },
+    {
+      "data_code": "A15",
+      "data_name": "鳥獣保護区（ポリゴン）",
+      "category": "3. 地域",
+      "subcategory": "保護保全",
+      "keywords": [
+        "鳥獣保護区（ポリゴン）",
+        "鳥獣保護区",
+        "A15",
+        "地域",
+        "保護保全"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A15.html"
+    },
+    {
+      "data_code": "A16",
+      "data_name": "DID人口集中地区（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "DID人口集中地区（ポリゴン）",
+        "DID人口集中地区",
+        "A16",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A16-2020.html"
+    },
+    {
+      "data_code": "A17",
+      "data_name": "過疎地域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "過疎地域（ポリゴン）",
+        "過疎地域",
+        "A17",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A17-2017.html"
+    },
+    {
+      "data_code": "A18",
+      "data_name": "半島振興対策実施地域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "半島振興対策実施地域（ポリゴン）",
+        "半島振興対策実施地域",
+        "A18",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A18-2016.html"
+    },
+    {
+      "data_code": "A18s-a",
+      "data_name": "半島振興対策実施地域統計情報（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "半島振興対策実施地域統計情報（ポリゴン）",
+        "半島振興対策実施地域統計情報",
+        "A18s-a",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A18s-a.html"
+    },
+    {
+      "data_code": "A19",
+      "data_name": "離島振興対策実施地域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "離島振興対策実施地域（ポリゴン）",
+        "離島振興対策実施地域",
+        "A19",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A19-2017.html"
+    },
+    {
+      "data_code": "A19s",
+      "data_name": "離島振興対策実施地域統計情報（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "離島振興対策実施地域統計情報（ポリゴン）",
+        "離島振興対策実施地域統計情報",
+        "A19s",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A19s.html"
+    },
+    {
+      "data_code": "A20",
+      "data_name": "奄美群島（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "奄美群島（ポリゴン）",
+        "奄美群島",
+        "A20",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A20.html"
+    },
+    {
+      "data_code": "A20s",
+      "data_name": "奄美群島統計情報（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "奄美群島統計情報（ポリゴン）",
+        "奄美群島統計情報",
+        "A20s",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A20s.html"
+    },
+    {
+      "data_code": "A21",
+      "data_name": "小笠原諸島（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "小笠原諸島（ポリゴン）",
+        "小笠原諸島",
+        "A21",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A21.html"
+    },
+    {
+      "data_code": "A21s",
+      "data_name": "小笠原諸島統計情報（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "小笠原諸島統計情報（ポリゴン）",
+        "小笠原諸島統計情報",
+        "A21s",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A21s.html"
+    },
+    {
+      "data_code": "A22",
+      "data_name": "豪雪地帯（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "豪雪地帯（ポリゴン）",
+        "豪雪地帯",
+        "A22",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A22-2016.html"
+    },
+    {
+      "data_code": "A22-m",
+      "data_name": "豪雪地帯（気象データ）（ポリゴン）（ポイント）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "豪雪地帯（気象データ）（ポリゴン）（ポイント）",
+        "豪雪地帯",
+        "A22-m",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A22-m.html"
+    },
+    {
+      "data_code": "A22s",
+      "data_name": "豪雪地帯統計情報（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "豪雪地帯統計情報（ポリゴン）",
+        "豪雪地帯統計情報",
+        "A22s",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A22s.html"
+    },
+    {
+      "data_code": "A23",
+      "data_name": "特殊土壌地帯（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "特殊土壌地帯（ポリゴン）",
+        "特殊土壌地帯",
+        "A23",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A23-2016.html"
+    },
+    {
+      "data_code": "A24",
+      "data_name": "振興山村（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "振興山村（ポリゴン）",
+        "振興山村",
+        "A24",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A24-2016.html"
+    },
+    {
+      "data_code": "A25",
+      "data_name": "特定農山村地域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "特定農山村地域（ポリゴン）",
+        "特定農山村地域",
+        "A25",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A25-2016.html"
+    },
+    {
+      "data_code": "A27",
+      "data_name": "小学校区（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "小学校区（ポリゴン）",
+        "小学校区",
+        "A27",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-2023.html"
+    },
+    {
+      "data_code": "A28",
+      "data_name": "世界自然遺産（ポリゴン）",
+      "category": "3. 地域",
+      "subcategory": "地域資源・観光",
+      "keywords": [
+        "世界自然遺産（ポリゴン）",
+        "世界自然遺産",
+        "A28",
+        "地域",
+        "地域資源・観光"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A28.html"
+    },
+    {
+      "data_code": "A29",
+      "data_name": "用途地域（ポリゴン）（2022年度以前のデータ）",
+      "category": "2. 政策区域",
+      "subcategory": "都市計画決定情報",
+      "keywords": [
+        "用途地域（ポリゴン）（2022年度以前のデータ）",
+        "用途地域",
+        "A29",
+        "政策区域",
+        "都市計画決定情報"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A29-2019.html"
+    },
+    {
+      "data_code": "A30a5",
+      "data_name": "土砂災害・雪崩メッシュ",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "土砂災害・雪崩メッシュ",
+        "A30a5",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A30a5.html"
+    },
+    {
+      "data_code": "A30b",
+      "data_name": "竜巻等の突風（ポイント）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "竜巻等の突風（ポイント）",
+        "竜巻等の突風",
+        "A30b",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A30b.html"
+    },
+    {
+      "data_code": "A31a",
+      "data_name": "洪水浸水想定区域（河川単位：ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "洪水浸水想定区域（河川単位：ポリゴン）",
+        "洪水浸水想定区域",
+        "A31a",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31a-2025.html"
+    },
+    {
+      "data_code": "A31b",
+      "data_name": "洪水浸水想定区域（1次メッシュ）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "洪水浸水想定区域（1次メッシュ）",
+        "洪水浸水想定区域",
+        "A31b",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31b-2025.html"
+    },
+    {
+      "data_code": "A32",
+      "data_name": "中学校区（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "中学校区（ポリゴン）",
+        "中学校区",
+        "A32",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A32-2023.html"
+    },
+    {
+      "data_code": "A33",
+      "data_name": "土砂災害警戒区域（ポリゴン）（ライン）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "土砂災害警戒区域（ポリゴン）（ライン）",
+        "土砂災害警戒区域",
+        "A33",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A33-2025.html"
+    },
+    {
+      "data_code": "A34",
+      "data_name": "世界文化遺産（ポリゴン）（ライン）（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "地域資源・観光",
+      "keywords": [
+        "世界文化遺産（ポリゴン）（ライン）（ポイント）",
+        "世界文化遺産",
+        "A34",
+        "地域",
+        "地域資源・観光"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A34-2022.html"
+    },
+    {
+      "data_code": "A35a",
+      "data_name": "景観計画区域（ポリゴン）（ポイント）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "景観計画区域（ポリゴン）（ポイント）",
+        "景観計画区域",
+        "A35a",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A35a.html"
+    },
+    {
+      "data_code": "A35b",
+      "data_name": "景観地区・準景観地区（ポリゴン）（ポイント）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "景観地区・準景観地区（ポリゴン）（ポイント）",
+        "景観地区・準景観地区",
+        "A35b",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A35b.html"
+    },
+    {
+      "data_code": "A35c",
+      "data_name": "景観重要建造物・樹木（ポイント）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "景観重要建造物・樹木（ポイント）",
+        "景観重要建造物・樹木",
+        "A35c",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A35c.html"
+    },
+    {
+      "data_code": "A37",
+      "data_name": "半島循環道路（ポリゴン）（ライン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "半島循環道路（ポリゴン）（ライン）",
+        "半島循環道路",
+        "A37",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A37.html"
+    },
+    {
+      "data_code": "A38",
+      "data_name": "医療圏（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "医療圏（ポリゴン）",
+        "医療圏",
+        "A38",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A38-2020.html"
+    },
+    {
+      "data_code": "A39",
+      "data_name": "密集市街地（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "大都市圏・条件不利地域",
+      "keywords": [
+        "密集市街地（ポリゴン）",
+        "密集市街地",
+        "A39",
+        "政策区域",
+        "大都市圏・条件不利地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A39-2015.html"
+    },
+    {
+      "data_code": "A40",
+      "data_name": "津波浸水想定（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "津波浸水想定（ポリゴン）",
+        "津波浸水想定",
+        "A40",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A40-2024.html"
+    },
+    {
+      "data_code": "A42",
+      "data_name": "歴史的風土保存区域（ポリゴン）（2022年度以前のデータ）",
+      "category": "2. 政策区域",
+      "subcategory": "都市計画決定情報",
+      "keywords": [
+        "歴史的風土保存区域（ポリゴン）（2022年度以前のデータ）",
+        "歴史的風土保存区域",
+        "A42",
+        "政策区域",
+        "都市計画決定情報"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A42.html"
+    },
+    {
+      "data_code": "A43",
+      "data_name": "伝統的建造物群保存地区（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "伝統的建造物群保存地区（ポリゴン）",
+        "伝統的建造物群保存地区",
+        "A43",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A43.html"
+    },
+    {
+      "data_code": "A44",
+      "data_name": "歴史的風致維持向上計画の重点地区（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "歴史的風致維持向上計画の重点地区（ポリゴン）",
+        "歴史的風致維持向上計画の重点地区",
+        "A44",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A44.html"
+    },
+    {
+      "data_code": "A45",
+      "data_name": "国有林野（ポリゴン）（ライン）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "土地利用",
+      "keywords": [
+        "国有林野（ポリゴン）（ライン）",
+        "国有林野",
+        "A45",
+        "国土（水・土地）",
+        "土地利用"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A45-2024.html"
+    },
+    {
+      "data_code": "A46",
+      "data_name": "地すべり防止区域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "地すべり防止区域（ポリゴン）",
+        "地すべり防止区域",
+        "A46",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A46-2021.html"
+    },
+    {
+      "data_code": "A47",
+      "data_name": "急傾斜地崩壊危険区域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "急傾斜地崩壊危険区域（ポリゴン）",
+        "急傾斜地崩壊危険区域",
+        "A47",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A47-2021.html"
+    },
+    {
+      "data_code": "A48",
+      "data_name": "災害危険区域（ポリゴン）（ポイント）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "災害危険区域（ポリゴン）（ポイント）",
+        "災害危険区域",
+        "A48",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A48-2021.html"
+    },
+    {
+      "data_code": "A49",
+      "data_name": "高潮浸水想定区域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "高潮浸水想定区域（ポリゴン）",
+        "高潮浸水想定区域",
+        "A49",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A49-2024.html"
+    },
+    {
+      "data_code": "A50",
+      "data_name": "立地適正化計画区域（ポリゴン）（2022年度以前のデータ）",
+      "category": "2. 政策区域",
+      "subcategory": "都市計画決定情報",
+      "keywords": [
+        "立地適正化計画区域（ポリゴン）（2022年度以前のデータ）",
+        "立地適正化計画区域",
+        "A50",
+        "政策区域",
+        "都市計画決定情報"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A50-2020.html"
+    },
+    {
+      "data_code": "A51",
+      "data_name": "雨水出水（内水）浸水想定（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "雨水出水（内水）浸水想定（ポリゴン）",
+        "雨水出水浸水想定",
+        "A51",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A51-2025.html"
+    },
+    {
+      "data_code": "A52",
+      "data_name": "砂防指定地（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "砂防指定地（ポリゴン）",
+        "砂防指定地",
+        "A52",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A52-2023.html"
+    },
+    {
+      "data_code": "A53",
+      "data_name": "多段階浸水想定（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "多段階浸水想定（ポリゴン）",
+        "多段階浸水想定",
+        "A53",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A53-2025.html"
+    },
+    {
+      "data_code": "A54",
+      "data_name": "大規模盛土造成地（ポリゴン）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "地形",
+      "keywords": [
+        "大規模盛土造成地（ポリゴン）",
+        "大規模盛土造成地",
+        "A54",
+        "国土（水・土地）",
+        "地形"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A54-2023.html"
+    },
+    {
+      "data_code": "A55",
+      "data_name": "都市計画決定情報（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "都市計画決定情報",
+      "keywords": [
+        "都市計画決定情報（ポリゴン）",
+        "都市計画決定情報",
+        "A55",
+        "政策区域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A55-2024.html"
+    },
+    {
+      "data_code": "A56",
+      "data_name": "宅地造成等工事規制区域・特定盛土等規制区域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "宅地造成等工事規制区域・特定盛土等規制区域（ポリゴン）",
+        "宅地造成等工事規制区域・特定盛土等規制区域",
+        "A56",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A56-2025.html"
+    },
+    {
+      "data_code": "C02",
+      "data_name": "港湾（ライン）（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "港湾（ライン）（ポイント）",
+        "港湾",
+        "C02",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C02-2014.html"
+    },
+    {
+      "data_code": "C09",
+      "data_name": "漁港（ライン）（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "漁港（ライン）（ポイント）",
+        "漁港",
+        "C09",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C09.html"
+    },
+    {
+      "data_code": "C23",
+      "data_name": "海岸線（ライン）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "水域",
+      "keywords": [
+        "海岸線（ライン）",
+        "海岸線",
+        "C23",
+        "国土（水・土地）",
+        "水域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C23.html"
+    },
+    {
+      "data_code": "C28",
+      "data_name": "空港（ポリゴン）（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "空港（ポリゴン）（ポイント）",
+        "空港",
+        "C28",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-C28-2021.html"
+    },
+    {
+      "data_code": "G02",
+      "data_name": "平年値（気候）メッシュ",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "平年値（気候）メッシュ",
+        "平年値メッシュ",
+        "G02",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G02-2022.html"
+    },
+    {
+      "data_code": "G04-a",
+      "data_name": "標高・傾斜度3次メッシュ",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "地形",
+      "keywords": [
+        "標高・傾斜度3次メッシュ",
+        "G04-a",
+        "国土（水・土地）",
+        "地形"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-a.html"
+    },
+    {
+      "data_code": "G04-c",
+      "data_name": "標高・傾斜度4次メッシュ",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "地形",
+      "keywords": [
+        "標高・傾斜度4次メッシュ",
+        "G04-c",
+        "国土（水・土地）",
+        "地形"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html"
+    },
+    {
+      "data_code": "G04-d",
+      "data_name": "標高・傾斜度5次メッシュ",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "地形",
+      "keywords": [
+        "標高・傾斜度5次メッシュ",
+        "G04-d",
+        "国土（水・土地）",
+        "地形"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html"
+    },
+    {
+      "data_code": "G08",
+      "data_name": "低位地帯（ポリゴン）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "地形",
+      "keywords": [
+        "低位地帯（ポリゴン）",
+        "低位地帯",
+        "G08",
+        "国土（水・土地）",
+        "地形"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G08-2015.html"
+    },
+    {
+      "data_code": "L01",
+      "data_name": "地価公示（ポイント）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "地価",
+      "keywords": [
+        "地価公示（ポイント）",
+        "地価公示",
+        "L01",
+        "国土（水・土地）",
+        "地価"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-2026.html"
+    },
+    {
+      "data_code": "L02",
+      "data_name": "都道府県地価調査（ポイント）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "地価",
+      "keywords": [
+        "都道府県地価調査（ポイント）",
+        "都道府県地価調査",
+        "L02",
+        "国土（水・土地）",
+        "地価"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L02-2025.html"
+    },
+    {
+      "data_code": "L03-a",
+      "data_name": "土地利用3次メッシュ",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "土地利用",
+      "keywords": [
+        "土地利用3次メッシュ",
+        "L03-a",
+        "国土（水・土地）",
+        "土地利用"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L03-a-2021.html"
+    },
+    {
+      "data_code": "L03-b",
+      "data_name": "土地利用細分メッシュ",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "土地利用",
+      "keywords": [
+        "土地利用細分メッシュ",
+        "L03-b",
+        "国土（水・土地）",
+        "土地利用"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L03-b-2021.html"
+    },
+    {
+      "data_code": "L03-b-c",
+      "data_name": "土地利用詳細メッシュ",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "土地利用",
+      "keywords": [
+        "土地利用詳細メッシュ",
+        "L03-b-c",
+        "国土（水・土地）",
+        "土地利用"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L03-b-c-2021.html"
+    },
+    {
+      "data_code": "L03-b-u",
+      "data_name": "都市地域土地利用細分メッシュ",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "土地利用",
+      "keywords": [
+        "都市地域土地利用細分メッシュ",
+        "L03-b-u",
+        "国土（水・土地）",
+        "土地利用"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L03-b-u-2021.html"
+    },
+    {
+      "data_code": "L03-b_r",
+      "data_name": "土地利用細分メッシュ（ラスタ版）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "土地利用",
+      "keywords": [
+        "土地利用細分メッシュ（ラスタ版）",
+        "土地利用細分メッシュ",
+        "L03-b_r",
+        "国土（水・土地）",
+        "土地利用"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L03-b_r.html"
+    },
+    {
+      "data_code": "L05",
+      "data_name": "工業用地（ポリゴン）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "工業用地（ポリゴン）",
+        "工業用地",
+        "L05",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L05.html"
+    },
+    {
+      "data_code": "N02",
+      "data_name": "鉄道（ライン）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "鉄道（ライン）",
+        "鉄道",
+        "N02",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html"
+    },
+    {
+      "data_code": "N03",
+      "data_name": "行政区域（ポリゴン）",
+      "category": "2. 政策区域",
+      "subcategory": "行政地域",
+      "keywords": [
+        "行政区域（ポリゴン）",
+        "行政区域",
+        "N03",
+        "政策区域",
+        "行政地域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html"
+    },
+    {
+      "data_code": "N04",
+      "data_name": "道路密度・道路延長メッシュ",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "道路密度・道路延長メッシュ",
+        "N04",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N04.html"
+    },
+    {
+      "data_code": "N05",
+      "data_name": "鉄道時系列（ライン）（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "鉄道時系列（ライン）（ポイント）",
+        "鉄道時系列",
+        "N05",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N05-2025.html"
+    },
+    {
+      "data_code": "N06",
+      "data_name": "高速道路時系列（ライン）（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "高速道路時系列（ライン）（ポイント）",
+        "高速道路時系列",
+        "N06",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N06-2025.html"
+    },
+    {
+      "data_code": "N07",
+      "data_name": "バスルート（ライン）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "バスルート（ライン）",
+        "バスルート",
+        "N07",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N07-2022.html"
+    },
+    {
+      "data_code": "N08",
+      "data_name": "空港時系列（ポリゴン）（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "空港時系列（ポリゴン）（ポイント）",
+        "空港時系列",
+        "N08",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N08-2021.html"
+    },
+    {
+      "data_code": "N09",
+      "data_name": "定期旅客航路（ライン）（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "定期旅客航路（ライン）（ポイント）",
+        "定期旅客航路",
+        "N09",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N09.html"
+    },
+    {
+      "data_code": "N10",
+      "data_name": "緊急輸送道路（ライン）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "緊急輸送道路（ライン）",
+        "緊急輸送道路",
+        "N10",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N10-2024.html"
+    },
+    {
+      "data_code": "N11",
+      "data_name": "ヘリポート（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "ヘリポート（ポイント）",
+        "ヘリポート",
+        "N11",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N11.html"
+    },
+    {
+      "data_code": "N12",
+      "data_name": "重要物流道路（ライン）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "重要物流道路（ライン）",
+        "重要物流道路",
+        "N12",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N12-2021.html"
+    },
+    {
+      "data_code": "N13",
+      "data_name": "道路（ライン）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "道路（ライン）",
+        "道路",
+        "N13",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N13-2024.html"
+    },
+    {
+      "data_code": "P02",
+      "data_name": "公共施設（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "公共施設（ポイント）",
+        "公共施設",
+        "P02",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P02-2006.html"
+    },
+    {
+      "data_code": "P03",
+      "data_name": "発電施設（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "発電施設（ポイント）",
+        "発電施設",
+        "P03",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P03.html"
+    },
+    {
+      "data_code": "P04",
+      "data_name": "医療機関（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "医療機関（ポイント）",
+        "医療機関",
+        "P04",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P04-2020.html"
+    },
+    {
+      "data_code": "P05",
+      "data_name": "市町村役場等及び公的集会施設（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "市町村役場等及び公的集会施設（ポイント）",
+        "市町村役場等及び公的集会施設",
+        "P05",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P05-2022.html"
+    },
+    {
+      "data_code": "P07",
+      "data_name": "燃料給油所（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "燃料給油所（ポイント）",
+        "燃料給油所",
+        "P07",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P07-2016.html"
+    },
+    {
+      "data_code": "P09",
+      "data_name": "宿泊容量メッシュ",
+      "category": "3. 地域",
+      "subcategory": "地域資源・観光",
+      "keywords": [
+        "宿泊容量メッシュ",
+        "P09",
+        "地域",
+        "地域資源・観光"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P09.html"
+    },
+    {
+      "data_code": "P11",
+      "data_name": "バス停留所（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "バス停留所（ポイント）",
+        "バス停留所",
+        "P11",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P11-2022.html"
+    },
+    {
+      "data_code": "P12",
+      "data_name": "観光資源（ポリゴン）（ライン）（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "地域資源・観光",
+      "keywords": [
+        "観光資源（ポリゴン）（ライン）（ポイント）",
+        "観光資源",
+        "P12",
+        "地域",
+        "地域資源・観光"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P12-2014.html"
+    },
+    {
+      "data_code": "P13",
+      "data_name": "都市公園（ポイント）（2022年度以前のデータ）",
+      "category": "2. 政策区域",
+      "subcategory": "都市計画決定情報",
+      "keywords": [
+        "都市公園（ポイント）（2022年度以前のデータ）",
+        "都市公園",
+        "P13",
+        "政策区域",
+        "都市計画決定情報"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P13.html"
+    },
+    {
+      "data_code": "P14",
+      "data_name": "福祉施設（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "福祉施設（ポイント）",
+        "福祉施設",
+        "P14",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-2023.html"
+    },
+    {
+      "data_code": "P15",
+      "data_name": "廃棄物処理施設（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "廃棄物処理施設（ポイント）",
+        "廃棄物処理施設",
+        "P15",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P15.html"
+    },
+    {
+      "data_code": "P16",
+      "data_name": "研究機関（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "研究機関（ポイント）",
+        "研究機関",
+        "P16",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P16.html"
+    },
+    {
+      "data_code": "P17",
+      "data_name": "消防署（ポリゴン）（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "消防署（ポリゴン）（ポイント）",
+        "消防署",
+        "P17",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P17.html"
+    },
+    {
+      "data_code": "P18",
+      "data_name": "警察署（ポリゴン）（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "警察署（ポリゴン）（ポイント）",
+        "警察署",
+        "P18",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P18.html"
+    },
+    {
+      "data_code": "P19",
+      "data_name": "地域資源（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "地域資源・観光",
+      "keywords": [
+        "地域資源（ポイント）",
+        "地域資源",
+        "P19",
+        "地域",
+        "地域資源・観光"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P19.html"
+    },
+    {
+      "data_code": "P20",
+      "data_name": "避難施設（ポイント）",
+      "category": "2. 政策区域",
+      "subcategory": "災害・防災",
+      "keywords": [
+        "避難施設（ポイント）",
+        "避難施設",
+        "P20",
+        "政策区域",
+        "災害・防災"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P20.html"
+    },
+    {
+      "data_code": "P21",
+      "data_name": "上水道関連施設（ポリゴン）（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "上水道関連施設（ポリゴン）（ポイント）",
+        "上水道関連施設",
+        "P21",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P21.html"
+    },
+    {
+      "data_code": "P22",
+      "data_name": "下水道関連施設（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "下水道関連施設（ポイント）",
+        "下水道関連施設",
+        "P22",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P22.html"
+    },
+    {
+      "data_code": "P23",
+      "data_name": "海岸保全施設（ライン）（ポイント）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "水域",
+      "keywords": [
+        "海岸保全施設（ライン）（ポイント）",
+        "海岸保全施設",
+        "P23",
+        "国土（水・土地）",
+        "水域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P23.html"
+    },
+    {
+      "data_code": "P24",
+      "data_name": "地場産業関連施設（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "地場産業関連施設（ポイント）",
+        "地場産業関連施設",
+        "P24",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P24.html"
+    },
+    {
+      "data_code": "P26",
+      "data_name": "ニュータウン（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "ニュータウン（ポイント）",
+        "ニュータウン",
+        "P26",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P26.html"
+    },
+    {
+      "data_code": "P27",
+      "data_name": "文化施設（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "文化施設（ポイント）",
+        "文化施設",
+        "P27",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P27.html"
+    },
+    {
+      "data_code": "P28",
+      "data_name": "国・都道府県の機関（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "国・都道府県の機関（ポイント）",
+        "国・都道府県の機関",
+        "P28",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P28-2022.html"
+    },
+    {
+      "data_code": "P29",
+      "data_name": "学校（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "学校（ポイント）",
+        "学校",
+        "P29",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29-2023.html"
+    },
+    {
+      "data_code": "P30",
+      "data_name": "郵便局（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "郵便局（ポイント）",
+        "郵便局",
+        "P30",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P30.html"
+    },
+    {
+      "data_code": "P31",
+      "data_name": "物流拠点（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "物流拠点（ポイント）",
+        "物流拠点",
+        "P31",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P31.html"
+    },
+    {
+      "data_code": "P32",
+      "data_name": "都道府県指定文化財（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "地域資源・観光",
+      "keywords": [
+        "都道府県指定文化財（ポイント）",
+        "都道府県指定文化財",
+        "P32",
+        "地域",
+        "地域資源・観光"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P32.html"
+    },
+    {
+      "data_code": "P33",
+      "data_name": "集客施設（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "集客施設（ポイント）",
+        "集客施設",
+        "P33",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P33.html"
+    },
+    {
+      "data_code": "P34",
+      "data_name": "市区町村役場（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "市区町村役場（ポイント）",
+        "市区町村役場",
+        "P34",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P34.html"
+    },
+    {
+      "data_code": "P35",
+      "data_name": "道の駅（ポイント）",
+      "category": "3. 地域",
+      "subcategory": "施設",
+      "keywords": [
+        "道の駅（ポイント）",
+        "道の駅",
+        "P35",
+        "地域",
+        "施設"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P35.html"
+    },
+    {
+      "data_code": "P36",
+      "data_name": "高速バス停留所（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "高速バス停留所（ポイント）",
+        "高速バス停留所",
+        "P36",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P36-2023.html"
+    },
+    {
+      "data_code": "S05-a",
+      "data_name": "発生・集中量（ポリゴン）（ライン）",
+      "category": "4. 交通",
+      "subcategory": "パーソントリップ・交通変動量",
+      "keywords": [
+        "発生・集中量（ポリゴン）（ライン）",
+        "発生・集中量",
+        "S05-a",
+        "交通",
+        "パーソントリップ・交通変動量"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-a-2013.html"
+    },
+    {
+      "data_code": "S05-b",
+      "data_name": "OD量（ポリゴン）（ライン）",
+      "category": "4. 交通",
+      "subcategory": "パーソントリップ・交通変動量",
+      "keywords": [
+        "OD量（ポリゴン）（ライン）",
+        "OD量",
+        "S05-b",
+        "交通",
+        "パーソントリップ・交通変動量"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-b-2013.html"
+    },
+    {
+      "data_code": "S05-c",
+      "data_name": "交通流動量 駅別乗降数（ポリゴン）（ポイント）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "交通流動量 駅別乗降数（ポリゴン）（ポイント）",
+        "交通流動量 駅別乗降数",
+        "S05-c",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-c.html"
+    },
+    {
+      "data_code": "S05-d",
+      "data_name": "貨物旅客地域流動量（ポリゴン）（ライン）",
+      "category": "4. 交通",
+      "subcategory": "パーソントリップ・交通変動量",
+      "keywords": [
+        "貨物旅客地域流動量（ポリゴン）（ライン）",
+        "貨物旅客地域流動量",
+        "S05-d",
+        "交通",
+        "パーソントリップ・交通変動量"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S05-d-2018.html"
+    },
+    {
+      "data_code": "S10a",
+      "data_name": "港湾間流通量・海上経路（ライン）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "港湾間流通量・海上経路（ライン）",
+        "港湾間流通量・海上経路",
+        "S10a",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S10a-2016.html"
+    },
+    {
+      "data_code": "S10b",
+      "data_name": "空港間流通量（ライン）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "空港間流通量（ライン）",
+        "空港間流通量",
+        "S10b",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S10b-2014.html"
+    },
+    {
+      "data_code": "S12",
+      "data_name": "駅別乗降客数（ライン）",
+      "category": "4. 交通",
+      "subcategory": "交通",
+      "keywords": [
+        "駅別乗降客数（ライン）",
+        "駅別乗降客数",
+        "S12",
+        "交通"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-2024.html"
+    },
+    {
+      "data_code": "W01",
+      "data_name": "ダム（ポイント）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "水域",
+      "keywords": [
+        "ダム（ポイント）",
+        "ダム",
+        "W01",
+        "国土（水・土地）",
+        "水域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W01.html"
+    },
+    {
+      "data_code": "W05",
+      "data_name": "河川（ライン）（ポイント）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "水域",
+      "keywords": [
+        "河川（ライン）（ポイント）",
+        "河川",
+        "W05",
+        "国土（水・土地）",
+        "水域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W05.html"
+    },
+    {
+      "data_code": "W07",
+      "data_name": "流域メッシュ",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "水域",
+      "keywords": [
+        "流域メッシュ",
+        "W07",
+        "国土（水・土地）",
+        "水域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W07.html"
+    },
+    {
+      "data_code": "W09",
+      "data_name": "湖沼（ポリゴン）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "水域",
+      "keywords": [
+        "湖沼（ポリゴン）",
+        "湖沼",
+        "W09",
+        "国土（水・土地）",
+        "水域"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W09-2005.html"
+    },
+    {
+      "data_code": "mesh1000",
+      "data_name": "1kmメッシュ別将来推計人口（H29国政局推計）",
+      "category": "5. 各種統計",
+      "subcategory": "5. 各種統計",
+      "keywords": [
+        "1kmメッシュ別将来推計人口（H29国政局推計）",
+        "1kmメッシュ別将来推計人口",
+        "mesh1000",
+        "各種統計",
+        "5. 各種統計"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh1000.html"
+    },
+    {
+      "data_code": "mesh1000h30",
+      "data_name": "1kmメッシュ別将来推計人口（H30国政局推計）",
+      "category": "5. 各種統計",
+      "subcategory": "5. 各種統計",
+      "keywords": [
+        "1kmメッシュ別将来推計人口（H30国政局推計）",
+        "1kmメッシュ別将来推計人口",
+        "mesh1000h30",
+        "各種統計",
+        "5. 各種統計"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh1000h30.html"
+    },
+    {
+      "data_code": "mesh1000r6",
+      "data_name": "1kmメッシュ別将来推計人口（R6国政局推計）",
+      "category": "5. 各種統計",
+      "subcategory": "5. 各種統計",
+      "keywords": [
+        "1kmメッシュ別将来推計人口（R6国政局推計）",
+        "1kmメッシュ別将来推計人口",
+        "mesh1000r6",
+        "各種統計",
+        "5. 各種統計"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh1000r6.html"
+    },
+    {
+      "data_code": "mesh250r6",
+      "data_name": "250mメッシュ別将来推計人口（R6国政局推計）",
+      "category": "5. 各種統計",
+      "subcategory": "5. 各種統計",
+      "keywords": [
+        "250mメッシュ別将来推計人口（R6国政局推計）",
+        "250mメッシュ別将来推計人口",
+        "mesh250r6",
+        "各種統計",
+        "5. 各種統計"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh250r6.html"
+    },
+    {
+      "data_code": "mesh500",
+      "data_name": "500mメッシュ別将来推計人口（H29国政局推計）",
+      "category": "5. 各種統計",
+      "subcategory": "5. 各種統計",
+      "keywords": [
+        "500mメッシュ別将来推計人口（H29国政局推計）",
+        "500mメッシュ別将来推計人口",
+        "mesh500",
+        "各種統計",
+        "5. 各種統計"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh500.html"
+    },
+    {
+      "data_code": "mesh500h30",
+      "data_name": "500mメッシュ別将来推計人口（H30国政局推計）",
+      "category": "5. 各種統計",
+      "subcategory": "5. 各種統計",
+      "keywords": [
+        "500mメッシュ別将来推計人口（H30国政局推計）",
+        "500mメッシュ別将来推計人口",
+        "mesh500h30",
+        "各種統計",
+        "5. 各種統計"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh500h30.html"
+    },
+    {
+      "data_code": "mesh500r6",
+      "data_name": "500mメッシュ別将来推計人口（R6国政局推計）",
+      "category": "5. 各種統計",
+      "subcategory": "5. 各種統計",
+      "keywords": [
+        "500mメッシュ別将来推計人口（R6国政局推計）",
+        "500mメッシュ別将来推計人口",
+        "mesh500r6",
+        "各種統計",
+        "5. 各種統計"
+      ],
+      "detail_url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh500r6.html"
+    }
+  ]
+}
