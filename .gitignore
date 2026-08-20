@@ -7,10 +7,15 @@ __pycache__/
 htmlcov/
 
 # Google API credentials must never be committed.
+credentials/
 *service-account*.json
 credentials*.json
 service_account*.json
 client_secret*.json
 authorized-user*.json
-token*.json
-credentials/
+# Downloaded GIS data archives
+downloads/
+backend/downloads/
+*.zip
+node_modules/
+.next/

@@ -5,8 +5,68 @@
     "url": "https://nlftp.mlit.go.jp/ksj/",
     "retrieved_at": "2026-08-20T02:19:02.566748Z"
   },
-  "dataset_count": 133,
+  "dataset_count": 136,
   "datasets": [
+    {
+      "provider_id": "gsi",
+      "provider_name": "国土地理院（基盤地図情報）",
+      "data_code": "GSI-DEM5A",
+      "data_name": "数値標高モデル 5mメッシュ（航空レーザ測量）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "地形・標高",
+      "keywords": [
+        "数値標高モデル 5mメッシュ（航空レーザ測量）",
+        "数値標高モデル",
+        "標高データ",
+        "DEM",
+        "5mメッシュ",
+        "航空レーザ",
+        "航空レーザー",
+        "高精度標高",
+        "地形",
+        "GSI-DEM5A",
+        "基盤地図情報"
+      ],
+      "detail_url": "https://service.gsi.go.jp/kiban/"
+    },
+    {
+      "provider_id": "gsi",
+      "provider_name": "国土地理院（基盤地図情報）",
+      "data_code": "GSI-DEM10B",
+      "data_name": "数値標高モデル 10mメッシュ（全国）",
+      "category": "1. 国土（水・土地）",
+      "subcategory": "地形・標高",
+      "keywords": [
+        "数値標高モデル 10mメッシュ（全国）",
+        "数値標高モデル",
+        "標高データ",
+        "DEM",
+        "10mメッシュ",
+        "全国標高",
+        "地形",
+        "GSI-DEM10B",
+        "基盤地図情報"
+      ],
+      "detail_url": "https://service.gsi.go.jp/kiban/"
+    },
+    {
+      "provider_id": "gsi",
+      "provider_name": "国土地理院（基盤地図情報）",
+      "data_code": "GSI-FGD-BLD",
+      "data_name": "基盤地図情報 建築物外周線（建物フットプリント）",
+      "category": "3. 施設",
+      "subcategory": "建築物・都市施設",
+      "keywords": [
+        "基盤地図情報 建築物外周線（建物フットプリント）",
+        "建築物外周線",
+        "建物フットプリント",
+        "建物ポリゴン",
+        "建築物",
+        "基盤地図情報",
+        "GSI-FGD-BLD"
+      ],
+      "detail_url": "https://service.gsi.go.jp/kiban/"
+    },
     {
       "data_code": "A03",
       "data_name": "三大都市圏計画区域（ポリゴン）",
