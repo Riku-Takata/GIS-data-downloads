@@ -198,3 +198,14 @@ def write_metadata_document(document: dict[str, Any], output_path: Path) -> None
     finally:
         if temporary_path is not None and temporary_path.exists():
             temporary_path.unlink()
+
+
+def load_metadata_document(path: Path | None = None) -> dict[str, Any]:
+    """Load metadata document from file."""
+    target_path = path or (Path(__file__).resolve().parents[1] / "data" / "metadata.json")
+    if not target_path.is_file():
+        return {"datasets": []}
+    return json.loads(target_path.read_text(encoding="utf-8"))
+
+
+load_metadata = load_metadata_document

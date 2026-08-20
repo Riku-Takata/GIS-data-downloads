@@ -1,0 +1,694 @@
+{
+  "schema_version": 1,
+  "source": {
+    "name": "JIS X 0401 都道府県コード / 国土数値情報",
+    "retrieved_at": "2026-08-20T02:42:35.481280Z"
+  },
+  "prefecture_count": 48,
+  "prefectures": [
+    {
+      "pref_code": "00",
+      "pref_name": "全国",
+      "short_name": "全国",
+      "kana": "ぜんこく",
+      "romaji": "Zenkoku",
+      "region": "全国",
+      "aliases": [
+        "全国",
+        "日本",
+        "ぜんこく",
+        "zenkoku",
+        "japan"
+      ]
+    },
+    {
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "short_name": "北海道",
+      "kana": "ほっかいどう",
+      "romaji": "Hokkaido",
+      "region": "北海道",
+      "aliases": [
+        "北海道",
+        "ほっかいどう",
+        "hokkaido"
+      ]
+    },
+    {
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "short_name": "青森",
+      "kana": "あおもり",
+      "romaji": "Aomori",
+      "region": "東北",
+      "aliases": [
+        "青森県",
+        "青森",
+        "あおもり",
+        "aomori"
+      ]
+    },
+    {
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "short_name": "岩手",
+      "kana": "いわて",
+      "romaji": "Iwate",
+      "region": "東北",
+      "aliases": [
+        "岩手県",
+        "岩手",
+        "いわて",
+        "iwate"
+      ]
+    },
+    {
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "short_name": "宮城",
+      "kana": "みやぎ",
+      "romaji": "Miyagi",
+      "region": "東北",
+      "aliases": [
+        "宮城県",
+        "宮城",
+        "みやぎ",
+        "miyagi",
+        "仙台",
+        "せんだい"
+      ]
+    },
+    {
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "short_name": "秋田",
+      "kana": "あきた",
+      "romaji": "Akita",
+      "region": "東北",
+      "aliases": [
+        "秋田県",
+        "秋田",
+        "あきた",
+        "akita"
+      ]
+    },
+    {
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "short_name": "山形",
+      "kana": "やまがた",
+      "romaji": "Yamagata",
+      "region": "東北",
+      "aliases": [
+        "山形県",
+        "山形",
+        "やまがた",
+        "yamagata"
+      ]
+    },
+    {
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "short_name": "福島",
+      "kana": "ふくしま",
+      "romaji": "Fukushima",
+      "region": "東北",
+      "aliases": [
+        "福島県",
+        "福島",
+        "ふくしま",
+        "fukushima"
+      ]
+    },
+    {
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "short_name": "茨城",
+      "kana": "いばらき",
+      "romaji": "Ibaraki",
+      "region": "関東",
+      "aliases": [
+        "茨城県",
+        "茨城",
+        "いばらき",
+        "ibaraki"
+      ]
+    },
+    {
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "short_name": "栃木",
+      "kana": "とちぎ",
+      "romaji": "Tochigi",
+      "region": "関東",
+      "aliases": [
+        "栃木県",
+        "栃木",
+        "とちぎ",
+        "tochigi"
+      ]
+    },
+    {
+      "pref_code": "10",
+      "pref_name": "群馬県",
+      "short_name": "群馬",
+      "kana": "ぐんま",
+      "romaji": "Gunma",
+      "region": "関東",
+      "aliases": [
+        "群馬県",
+        "群馬",
+        "ぐんま",
+        "gunma"
+      ]
+    },
+    {
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "short_name": "埼玉",
+      "kana": "さいたま",
+      "romaji": "Saitama",
+      "region": "関東",
+      "aliases": [
+        "埼玉県",
+        "埼玉",
+        "さいたま",
+        "saitama"
+      ]
+    },
+    {
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "short_name": "千葉",
+      "kana": "ちば",
+      "romaji": "Chiba",
+      "region": "関東",
+      "aliases": [
+        "千葉県",
+        "千葉",
+        "ちば",
+        "chiba"
+      ]
+    },
+    {
+      "pref_code": "13",
+      "pref_name": "東京都",
+      "short_name": "東京",
+      "kana": "とうきょう",
+      "romaji": "Tokyo",
+      "region": "関東",
+      "aliases": [
+        "東京都",
+        "東京",
+        "とうきょう",
+        "tokyo"
+      ]
+    },
+    {
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "short_name": "神奈川",
+      "kana": "かながわ",
+      "romaji": "Kanagawa",
+      "region": "関東",
+      "aliases": [
+        "神奈川県",
+        "神奈川",
+        "かながわ",
+        "kanagawa",
+        "横浜",
+        "よこはま"
+      ]
+    },
+    {
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "short_name": "新潟",
+      "kana": "にいがた",
+      "romaji": "Niigata",
+      "region": "中部",
+      "aliases": [
+        "新潟県",
+        "新潟",
+        "にいがた",
+        "niigata"
+      ]
+    },
+    {
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "short_name": "富山",
+      "kana": "とやま",
+      "romaji": "Toyama",
+      "region": "中部",
+      "aliases": [
+        "富山県",
+        "富山",
+        "とやま",
+        "toyama"
+      ]
+    },
+    {
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "short_name": "石川",
+      "kana": "いしかわ",
+      "romaji": "Ishikawa",
+      "region": "中部",
+      "aliases": [
+        "石川県",
+        "石川",
+        "いしかわ",
+        "ishikawa",
+        "金沢",
+        "かなざわ"
+      ]
+    },
+    {
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "short_name": "福井",
+      "kana": "ふくい",
+      "romaji": "Fukui",
+      "region": "中部",
+      "aliases": [
+        "福井県",
+        "福井",
+        "ふくい",
+        "fukui"
+      ]
+    },
+    {
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "short_name": "山梨",
+      "kana": "やまなし",
+      "romaji": "Yamanashi",
+      "region": "中部",
+      "aliases": [
+        "山梨県",
+        "山梨",
+        "やまなし",
+        "yamanashi"
+      ]
+    },
+    {
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "short_name": "長野",
+      "kana": "ながの",
+      "romaji": "Nagano",
+      "region": "中部",
+      "aliases": [
+        "長野県",
+        "長野",
+        "ながの",
+        "nagano"
+      ]
+    },
+    {
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "short_name": "岐阜",
+      "kana": "ぎふ",
+      "romaji": "Gifu",
+      "region": "中部",
+      "aliases": [
+        "岐阜県",
+        "岐阜",
+        "ぎふ",
+        "gifu"
+      ]
+    },
+    {
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "short_name": "静岡",
+      "kana": "しずおか",
+      "romaji": "Shizuoka",
+      "region": "中部",
+      "aliases": [
+        "静岡県",
+        "静岡",
+        "しずおか",
+        "shizuoka"
+      ]
+    },
+    {
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "short_name": "愛知",
+      "kana": "あいち",
+      "romaji": "Aichi",
+      "region": "中部",
+      "aliases": [
+        "愛知県",
+        "愛知",
+        "あいち",
+        "aichi",
+        "名古屋",
+        "なごや"
+      ]
+    },
+    {
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "short_name": "三重",
+      "kana": "みえ",
+      "romaji": "Mie",
+      "region": "近畿",
+      "aliases": [
+        "三重県",
+        "三重",
+        "みえ",
+        "mie"
+      ]
+    },
+    {
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "short_name": "滋賀",
+      "kana": "しが",
+      "romaji": "Shiga",
+      "region": "近畿",
+      "aliases": [
+        "滋賀県",
+        "滋賀",
+        "しが",
+        "shiga"
+      ]
+    },
+    {
+      "pref_code": "26",
+      "pref_name": "京都府",
+      "short_name": "京都",
+      "kana": "きょうと",
+      "romaji": "Kyoto",
+      "region": "近畿",
+      "aliases": [
+        "京都府",
+        "京都",
+        "きょうと",
+        "kyoto"
+      ]
+    },
+    {
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "short_name": "大阪",
+      "kana": "おおさか",
+      "romaji": "Osaka",
+      "region": "近畿",
+      "aliases": [
+        "大阪府",
+        "大阪",
+        "おおさか",
+        "osaka"
+      ]
+    },
+    {
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "short_name": "兵庫",
+      "kana": "ひょうご",
+      "romaji": "Hyogo",
+      "region": "近畿",
+      "aliases": [
+        "兵庫県",
+        "兵庫",
+        "ひょうご",
+        "hyogo",
+        "神戸",
+        "こうべ"
+      ]
+    },
+    {
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "short_name": "奈良",
+      "kana": "なら",
+      "romaji": "Nara",
+      "region": "近畿",
+      "aliases": [
+        "奈良県",
+        "奈良",
+        "なら",
+        "nara"
+      ]
+    },
+    {
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "short_name": "和歌山",
+      "kana": "わかやま",
+      "romaji": "Wakayama",
+      "region": "近畿",
+      "aliases": [
+        "和歌山県",
+        "和歌山",
+        "わかやま",
+        "wakayama"
+      ]
+    },
+    {
+      "pref_code": "31",
+      "pref_name": "鳥取県",
+      "short_name": "鳥取",
+      "kana": "とっとり",
+      "romaji": "Tottori",
+      "region": "中国",
+      "aliases": [
+        "鳥取県",
+        "鳥取",
+        "とっとり",
+        "tottori"
+      ]
+    },
+    {
+      "pref_code": "32",
+      "pref_name": "島根県",
+      "short_name": "島根",
+      "kana": "しまね",
+      "romaji": "Shimane",
+      "region": "中国",
+      "aliases": [
+        "島根県",
+        "島根",
+        "しまね",
+        "shimane"
+      ]
+    },
+    {
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "short_name": "岡山",
+      "kana": "おかやま",
+      "romaji": "Okayama",
+      "region": "中国",
+      "aliases": [
+        "岡山県",
+        "岡山",
+        "おかやま",
+        "okayama"
+      ]
+    },
+    {
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "short_name": "広島",
+      "kana": "ひろしま",
+      "romaji": "Hiroshima",
+      "region": "中国",
+      "aliases": [
+        "広島県",
+        "広島",
+        "ひろしま",
+        "hiroshima"
+      ]
+    },
+    {
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "short_name": "山口",
+      "kana": "やまぐち",
+      "romaji": "Yamaguchi",
+      "region": "中国",
+      "aliases": [
+        "山口県",
+        "山口",
+        "やまぐち",
+        "yamaguchi"
+      ]
+    },
+    {
+      "pref_code": "36",
+      "pref_name": "徳島県",
+      "short_name": "徳島",
+      "kana": "とくしま",
+      "romaji": "Tokushima",
+      "region": "四国",
+      "aliases": [
+        "徳島県",
+        "徳島",
+        "とくしま",
+        "tokushima"
+      ]
+    },
+    {
+      "pref_code": "37",
+      "pref_name": "香川県",
+      "short_name": "香川",
+      "kana": "かがわ",
+      "romaji": "Kagawa",
+      "region": "四国",
+      "aliases": [
+        "香川県",
+        "香川",
+        "かがわ",
+        "kagawa"
+      ]
+    },
+    {
+      "pref_code": "38",
+      "pref_name": "愛媛県",
+      "short_name": "愛媛",
+      "kana": "えひめ",
+      "romaji": "Ehime",
+      "region": "四国",
+      "aliases": [
+        "愛媛県",
+        "愛媛",
+        "えひめ",
+        "ehime"
+      ]
+    },
+    {
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "short_name": "高知",
+      "kana": "こうち",
+      "romaji": "Kochi",
+      "region": "四国",
+      "aliases": [
+        "高知県",
+        "高知",
+        "こうち",
+        "kochi"
+      ]
+    },
+    {
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "short_name": "福岡",
+      "kana": "ふくおか",
+      "romaji": "Fukuoka",
+      "region": "九州",
+      "aliases": [
+        "福岡県",
+        "福岡",
+        "ふくおか",
+        "fukuoka",
+        "博多",
+        "はかた"
+      ]
+    },
+    {
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "short_name": "佐賀",
+      "kana": "さが",
+      "romaji": "Saga",
+      "region": "九州",
+      "aliases": [
+        "佐賀県",
+        "佐賀",
+        "さが",
+        "saga"
+      ]
+    },
+    {
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "short_name": "長崎",
+      "kana": "ながさき",
+      "romaji": "Nagasaki",
+      "region": "九州",
+      "aliases": [
+        "長崎県",
+        "長崎",
+        "ながさき",
+        "nagasaki"
+      ]
+    },
+    {
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "short_name": "熊本",
+      "kana": "くまもと",
+      "romaji": "Kumamoto",
+      "region": "九州",
+      "aliases": [
+        "熊本県",
+        "熊本",
+        "くまもと",
+        "kumamoto"
+      ]
+    },
+    {
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "short_name": "大分",
+      "kana": "おおいた",
+      "romaji": "Oita",
+      "region": "九州",
+      "aliases": [
+        "大分県",
+        "大分",
+        "おおいた",
+        "oita"
+      ]
+    },
+    {
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "short_name": "宮崎",
+      "kana": "みやざき",
+      "romaji": "Miyazaki",
+      "region": "九州",
+      "aliases": [
+        "宮崎県",
+        "宮崎",
+        "みやざき",
+        "miyazaki"
+      ]
+    },
+    {
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "short_name": "鹿児島",
+      "kana": "かごしま",
+      "romaji": "Kagoshima",
+      "region": "九州",
+      "aliases": [
+        "鹿児島県",
+        "鹿児島",
+        "かごしま",
+        "kagoshima"
+      ]
+    },
+    {
+      "pref_code": "47",
+      "pref_name": "沖縄県",
+      "short_name": "沖縄",
+      "kana": "おきなわ",
+      "romaji": "Okinawa",
+      "region": "九州・沖縄",
+      "aliases": [
+        "沖縄県",
+        "沖縄",
+        "おきなわ",
+        "okinawa"
+      ]
+    }
+  ]
+}
