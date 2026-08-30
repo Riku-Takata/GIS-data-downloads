@@ -159,7 +159,7 @@ def download_dataset(body: DownloadRequestBody) -> dict[str, Any]:
                 )
                 upload_result = upsert_file(
                     service,
-                    local_path=downloaded_path,
+                    local_path=result.local_path,
                     folder_id=target_drive_folder_id,
                     mime_type=ZIP_MIME_TYPE,
                     shared_drive_id=settings.google_drive_shared_drive_id,

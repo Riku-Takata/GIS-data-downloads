@@ -19,3 +19,7 @@ backend/downloads/
 *.zip
 node_modules/
 .next/
+
+# Local MySQL credentials and persistent database files
+infrastructure/mysql/.env.mysql
+mysql-data/
