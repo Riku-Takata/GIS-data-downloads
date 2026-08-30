@@ -113,7 +113,15 @@ def heuristic_search(
             pref_match = p
             break
 
-    if pref_match is not None:
+    national_pref = next((p for p in all_prefs if p.pref_code == "00"), None)
+    has_national_scope = national_pref is not None and any(
+        alias in cleaned_query or alias.lower() in query_lower
+        for alias in national_pref.aliases
+    )
+
+    if has_national_scope:
+        pref_code, pref_name = "00", "全国"
+    elif pref_match is not None:
         pref_code, pref_name = pref_match.pref_code, pref_match.pref_name
     else:
         # Try GSI nationwide geocoder for cities, towns, landmarks (e.g. 能登, 輪島市役所, 博多駅)
@@ -126,14 +134,7 @@ def heuristic_search(
             location_name = geo_res.location_name
         else:
             # Check for national keywords
-            national_pref = next((p for p in all_prefs if p.pref_code == "00"), None)
-            if national_pref and any(
-                alias in cleaned_query or alias.lower() in query_lower
-                for alias in national_pref.aliases
-            ):
-                pref_code, pref_name = "00", "全国"
-            else:
-                pref_code, pref_name = "00", "全国"
+            pref_code, pref_name = "00", "全国"
 
     # 2. Detect format
     if "shape" in query_lower or "shp" in query_lower or "シェープ" in cleaned_query:
@@ -359,14 +360,25 @@ def interpret_user_query(
         target_lng: float | None = None
         location_name: str | None = None
 
-        geo_res = geocode_location(query)
-        if geo_res and geo_res.pref_code != "00":
-            if pref_code == "00" or pref_code == geo_res.pref_code:
-                pref_code = geo_res.pref_code
-                pref_name = geo_res.pref_name
-            target_lat = geo_res.lat
-            target_lng = geo_res.lng
-            location_name = geo_res.location_name
+        national_pref = next(
+            (p for p in prefectures if p.get("pref_code") == "00"),
+            {},
+        )
+        national_aliases = national_pref.get("aliases", ["全国", "日本"])
+        has_national_scope = any(
+            alias and alias.lower() in query.lower() for alias in national_aliases
+        )
+        if has_national_scope:
+            pref_code, pref_name = "00", "全国"
+        else:
+            geo_res = geocode_location(query)
+            if geo_res and geo_res.pref_code != "00":
+                if pref_code == "00" or pref_code == geo_res.pref_code:
+                    pref_code = geo_res.pref_code
+                    pref_name = geo_res.pref_name
+                target_lat = geo_res.lat
+                target_lng = geo_res.lng
+                location_name = geo_res.location_name
 
         summary = parsed.get("summary", "")
         if location_name and location_name != pref_name:

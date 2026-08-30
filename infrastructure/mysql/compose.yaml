@@ -1,0 +1,60 @@
+name: gis-gsmap
+
+services:
+  mysql:
+    image: mysql:8.4.11
+    container_name: gsmap-mysql
+    restart: unless-stopped
+    command:
+      - --bind-address=0.0.0.0
+      - --mysqlx-bind-address=127.0.0.1
+      - --default-time-zone=+00:00
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_0900_ai_ci
+      - --local-infile=ON
+      - --skip-name-resolve=ON
+      - --max-connections=100
+      - --max-allowed-packet=64M
+      - --innodb-buffer-pool-size=4G
+      - --innodb-redo-log-capacity=2G
+      - --innodb-file-per-table=ON
+    env_file:
+      - .env.mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: gsmap_japan
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      TZ: Asia/Tokyo
+    ports:
+      - "${MYSQL_LAN_ADDRESS}:${MYSQL_PORT}:3306"
+    volumes:
+      - "${MYSQL_DATA_DIR}:/var/lib/mysql"
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ../../downloads/gsmap-japan-csv:/imports:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 40s
+    networks:
+      - gsmap-db
+
+  adminer:
+    image: adminer:6.0.1-standalone
+    container_name: gsmap-adminer
+    restart: unless-stopped
+    environment:
+      ADMINER_DEFAULT_SERVER: mysql
+    ports:
+      - "${MYSQL_LAN_ADDRESS}:${ADMINER_PORT}:8080"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - gsmap-db
+
+networks:
+  gsmap-db:
+    name: gsmap-db

@@ -62,7 +62,7 @@ class MLITProvider(BaseGISProvider):
         if not candidates:
             raise ValueError(f"国土数値情報 {data_code} のダウンロード候補が見つかりませんでした ({detail_url})。")
 
-        target_pref = None if pref_code in ("00", "") else pref_code
+        target_pref = pref_code or "00"
         best = select_best_candidate(
             candidates,
             pref_code=target_pref,
